@@ -8,8 +8,7 @@ exports.filterMovie = (req, res) => {
   };
   const filtered = moviesHelper.filter(req.body.payload, filterOptions);
 
-  const fieldsOptions = ['image', 'slug', 'title'];
-  const result = moviesHelper.summarize(filtered, fieldsOptions);
+  const result = moviesHelper.summarize(filtered);
 
   return responseHelper.sendResponse(res, result);
 };

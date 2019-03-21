@@ -1,0 +1,42 @@
+{
+  "name": "movie-list-test",
+  "version": "1.0.0",
+  "description": "coding-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "9digital",
+    "test",
+    "coding",
+    "challenge"
+  ],
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.5.0"
+  },
+  "author": "Sir Hoe Teo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "supertest": "^4.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

@@ -2,12 +2,10 @@
 > 9 Digital Coding Challenge
 
 ## How to run? 
-The nodeJS application should be deployed and run with PM2
 
 ```sh
 $ npm install
-$ npm install pm2 -g
-$ pm2 start index.js
+$ node index.js
 ```
 
 ## How to run unit test?
